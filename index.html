@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi App de Tareas</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mi App de Tareas</h1>
+        </header>
+        <main>
+            <section id="task-form">
+                <h2>Agregar Nueva Tarea</h2>
+                <form id="new-task-form">
+                    <input type="text" id="task-title" placeholder="Título de la tarea" required>
+                    <input type="date" id="task-date" required>
+                    <input type="text" id="task-input" placeholder="Escribe tu tarea aquí..." required>
+                    <button type="submit">Agregar Tarea</button>
+                </form>
+            </section>
+            <section id="task-list">
+                <h2>Lista de Tareas</h2>
+                <ul id="tasks">Tareas Pendientes</ul>
+                <ul id="tasks">Tareas en Progreso</ul>
+                <ul id="tasks">Tareas Finalizadas</ul>
+            </section>
+</html>
